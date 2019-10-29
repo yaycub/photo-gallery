@@ -32,7 +32,6 @@ header{
 }
 
 footer {
-    position: fixed;
     height: 50px;
     background-color: lightcoral;
     bottom: 0px;
@@ -65,4 +64,40 @@ select{
     height: 50px;
     font-size: 20px;
     margin: 5px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.horned-guys{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.image-con{
+    height: 200px;
+    width: 200px;
+    object-fit: scale-down;
+}
+
+h2{
+    font-size: 18px;
 }
