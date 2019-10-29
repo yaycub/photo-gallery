@@ -32,6 +32,7 @@ header{
 }
 
 footer {
+    position: fixed;
     height: 50px;
     background-color: lightcoral;
     bottom: 0px;
@@ -48,6 +49,7 @@ footer {
 
 main{
     font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 50px;
 }
 
 .filter{
@@ -119,6 +121,6 @@ h2{
     z-index: 1;
   }
 
-h2:hover .image-desc .desc-text{
+.title-container:hover .image-desc .desc-text{
     visibility: visible;
   }

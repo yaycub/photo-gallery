@@ -1,10 +1,10 @@
 export const renderAnimal = (animal) => {
     const html = `
     <li>
-        <div class="image-desc">
-            <span class="desc-text">${animal.description}</span>
-        </div>
         <div class="title-container">
+            <div class="image-desc">
+                <span class="desc-text">${animal.description}</span>
+            </div>
             <h2>${animal.title}</h2>
         </div>
         <div class="animal-image">
