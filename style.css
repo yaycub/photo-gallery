@@ -1,6 +1,6 @@
 html{
     min-height:100;
-    margin: 0;
+    margin: 0 auto;
 }
 
 #devil{
@@ -22,7 +22,6 @@ body{
 }
 
 header{
-    width: 100vw;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -50,6 +49,7 @@ footer {
 main{
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 50px;
+    margin: 0;
 }
 
 .filter{
@@ -74,11 +74,15 @@ select{
     align-items: center;
 }
 
-.horned-guys{
+ul{
     list-style: none;
+    padding: 0;
+}
+
+.horned-guys{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
