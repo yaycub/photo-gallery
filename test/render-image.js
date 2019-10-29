@@ -15,6 +15,9 @@ test('renders html from data', assert => {
 
     const html = `
     <li>
+        <div class="image-desc">
+            <span class="desc-text">A unicorn and a narwhal nuzzling their horns</span>
+        </div>
         <div class="title-container">
             <h2>UniWhal</h2>
         </div>

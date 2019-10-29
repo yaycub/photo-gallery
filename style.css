@@ -101,3 +101,24 @@ li{
 h2{
     font-size: 18px;
 }
+
+.image-desc{
+    position: relative;
+    display: inline-block;
+}
+
+.image-desc .desc-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+h2:hover .image-desc .desc-text{
+    visibility: visible;
+  }
